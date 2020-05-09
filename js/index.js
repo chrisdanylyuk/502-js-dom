@@ -31,5 +31,6 @@ para.style.backgroundColor = 'black';
 para.style.padding = '10px';
 para.style.width = '250px';
 para.style.textAlign = 'center';
-
 para.classList.add('formatted');
+
+$('.click-me').click( () => $('img').toggle(3000) );
